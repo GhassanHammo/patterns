@@ -37,7 +37,12 @@ export function makeBoard(rows, cols) {
  */
 export function makeTriangle(size) {
   // TODO
-}
+  if(row !== number)
+    return null;
+ 
+  }
+
+
 
 /**
  * @param {string[]} words

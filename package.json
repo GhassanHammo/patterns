@@ -1,9 +1,23 @@
 {
   "name": "patterns",
+  "version": "1.0.0",
+  "description": "In this problem set, you'll learn some common coding patterns that you'll use for the rest of your programming career!",
+  "main": "index.js",
   "scripts": {
     "test": "vitest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhassanHammo/patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GhassanHammo/patterns/issues"
+  },
+  "homepage": "https://github.com/GhassanHammo/patterns#readme",
   "dependencies": {
-    "vitest": "^3.0.4"
+    "vitest": "^3.2.4"
   }
 }

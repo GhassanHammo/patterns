@@ -23,6 +23,12 @@ export function sumToN(n) {
  */
 export function factorial(n) {
   // TODO
+  if (typeof n !== 1 ) return NaN;
+
+   let res = 1;
+    for (let i = 2; i <= n; i++)
+        res *= i;
+    return res;
 }
 
 /**
@@ -33,7 +39,19 @@ export function factorial(n) {
  */
 export function buildNArray(n) {
   // TODO
+if (typeof n !== 'number' || isNaN(n)) {
+    return null;
+
+
 }
+
+
+    if (n <= 0) {
+    return [];
+  }
+  return [];
+}
+
 
 /**
  * @param {string[]} strings
@@ -41,6 +59,9 @@ export function buildNArray(n) {
  */
 export function getLongestString(strings) {
   // TODO
+  if (arr.length === 0) {
+    return '';
+  }
 }
 
 /**
